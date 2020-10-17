@@ -1,3 +1,5 @@
+from help_func import my_func2
+
 print ("test code for python")
 
 
@@ -13,4 +15,19 @@ def myfunction(number):
 
 a=15
 myfunction(a)
+
+
+b=23
+
+
+my_func2(b)
+
+
+
+
+
+
+
+
+
 print("your request completed")
