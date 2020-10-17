@@ -1,4 +1,5 @@
 from help_func import my_func2
+#from pandas import DataFrame 
 
 print ("test code for python")
 
@@ -15,12 +16,13 @@ def myfunction(number):
 
 a=15
 myfunction(a)
-
+#c=DataFrame(index=[1,2,3,4,5],columns=["column1","column2"])
+#print(c)
 
 b=23
 
 
-my_func2(b)
+#my_func2(b)
 
 
 
