@@ -35,6 +35,13 @@ b=23
 
 my_func2(b)
 
+def employee(number,salary):
+    self.number=number
+    self.salary=salary
+    return ('number of employee'=number)
+
+    
+
 
 print("your request completed")
 myfunction(9)
