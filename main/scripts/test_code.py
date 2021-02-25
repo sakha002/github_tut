@@ -4,8 +4,6 @@ from utilz.help_func import my_func2
 print ("test code for python")
 print ("now exec line 5")
 
-
-
 print ("now exec line 9")
 def myfunction(a):
     print ("now exec line 11")
@@ -15,9 +13,6 @@ def myfunction(a):
         print(a)
     return
 print ("now exec line 17")
-
-
-
 
 a=15
 print ("now exec line 23")
@@ -35,13 +30,19 @@ b=23
 
 my_func2(b)
 
-def employee(number,salary):
-    self.number=number
-    self.salary=salary
-    return ('number of employee'=number)
-
-    
 
 
 print("your request completed")
 myfunction(9)
+
+
+class employer:
+    def __init__ (self,number,salary):
+        self.number=number
+        self.salary=salary
+    def employerbudget(self):
+        return (self.number*self.salary)
+
+e1=employer(10,100)
+print(e1.salary)
+print('here is a problem in line52')
